@@ -1,7 +1,7 @@
 USE retail_sql_ksankalp;
 
 -- Randomly 225 rows from the dataset are inserted into the table.
-INSERT INTO Retail_Sales (Transactions_ID, sale_date, sale_time, Customer_ID, gender, age, category, quantiy, price_per_unit, cogs, total_sale) VALUES
+INSERT INTO Retail_Sales (Transaction_ID, sale_date, sale_time, Customer_ID, gender, age, category, quantity, price_per_unit, cogs, total_sale) VALUES
 (1054, '2022-01-10', '09:24:00', 49, 'Female', 38, 'Electronics', 3, 500.0, 140.0, 1500.0),
 (1433, '2022-01-16', '11:41:00', 113, 'Male', 29, 'Beauty', 4, 50.0, 15.5, 200.0),
 (1399, '2022-01-28', '09:32:00', 15, 'Female', 64, 'Beauty', 2, 30.0, 16.2, 60.0),
