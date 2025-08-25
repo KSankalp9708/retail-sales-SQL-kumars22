@@ -1,4 +1,4 @@
--- Create database and main table (MySQL 8)
+-- Creating database and main table
 DROP DATABASE IF EXISTS retail_sql_ksankalp;
 CREATE DATABASE retail_sql_ksankalp;
 USE retail_sql_ksankalp;
