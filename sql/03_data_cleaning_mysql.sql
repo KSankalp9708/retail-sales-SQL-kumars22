@@ -1,7 +1,6 @@
 -- In order to clean the data, we should remove the data where all important data is missing like:
 -- Transaction_ID, sale_date,vsale_time, gender, age, categor, quantity, cogs, or total_sale.
---First, execute SELECT COUNT(*) in order to find how many rows are going to be removed in process
---of cleaning.
+-- First, execute SELECT COUNT(*) in order to find how many rows are going to be removed in process of cleaning.
 
 SELECT COUNT(*) AS rows_removed
 FROM Retail_Sales
@@ -31,3 +30,4 @@ WHERE Transaction_ID IS NULL
    OR cogs IS NULL
    OR total_sale IS NULL;
 SET SQL_SAFE_UPDATES = 1;  -- re-enabled for safety
+
