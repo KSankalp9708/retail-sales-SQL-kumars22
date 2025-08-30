@@ -13,13 +13,13 @@
 - Data Exploration & Cleaning: Checked total records, unique customers, categories, and null values; removed incomplete records.
 - Basic Analysis: Queried sales on specific dates, filtered by category/quantity, computed category-wise totals, customer demographics, and high-value transactions.
 - **Advanced Analysis**:
--- Gender vs category transactions
--- Monthly average sales & best-selling months
--- Top 5 customers by total sales
--- Category-wise unique customers & revenue
--- Shift-wise orders (Morning/Afternoon/Evening)
--- Year-over-Year (YoY) growth by category
--- Average basket size and revenue per unit
+  - Gender vs category transactions
+  - Monthly average sales & best-selling months
+  - Top 5 customers by total sales
+  - Category-wise unique customers & revenue
+  - Shift-wise orders (Morning/Afternoon/Evening)
+  - Year-over-Year (YoY) growth by category
+  - Average basket size and revenue per unit
 
 
 # *Results / Key Insights*
